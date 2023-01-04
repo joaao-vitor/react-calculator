@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&display=swap');
+
+:root{
+    --bg-nums: rgb(41,45,54);
+    --red-color: rgb(239,120,120);
+}
+
+.calculator{
+    width: 100vw;
+    height: 100vh;
+
+    max-width: 390px;
+    
+    background-color: rgb(34,37,45);
+
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+
+    display: grid;
+    grid-template-rows: 0.35fr 0.65fr;
+}
+
+.nums{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem 1rem;
+    padding: 1.75rem 1.5rem ;
+    background-color: var(--bg-nums);
+    border-radius: 1.75rem 1.75rem 0 0;
+}
+
+@media (min-width: 768px) {
+    .calculator{
+        max-height: 700px;
+        border-radius: 1.75rem;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.301);
+    }
+    .nums{
+        border-bottom-left-radius: 1.75rem;
+        border-bottom-right-radius: 1.75rem;
+    }
+}

@@ -1,0 +1,34 @@
+:root{
+    --text-green: rgb(38,235,201);
+    --text-red: rgb(239,120,120);
+}
+
+.button{
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 600;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 1.25em;
+    background-color: #272b33;
+    cursor: pointer;
+    
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.button:active{
+    
+    background-color: #1a1d22;
+}
+
+.green{
+    color: var(--text-green);
+}
+.red{
+    color: var(--text-red);
+}
+.double{
+    grid-column: span 2;
+}
