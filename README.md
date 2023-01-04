@@ -1,8 +1,10 @@
 ### Live Version
-https://jv-react-calculator.netlify.app
+---
+[Link](https://jv-react-calculator.netlify.app)
 
 ### Install
-npm install
+---
+`npm install`
 
 ### Usage
-npm start
+`npm start`
